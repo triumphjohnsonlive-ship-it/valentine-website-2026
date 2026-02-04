@@ -1,4 +1,8 @@
-const config = {
+// =========================
+// VALENTINE CONFIG
+// =========================
+
+window.CONFIG = {
   // =========================
   // BASIC INFORMATION
   // =========================
@@ -56,7 +60,7 @@ const config = {
   },
 
   // =========================
-  // COLORS (SOFT + ELEGANT)
+  // COLORS
   // =========================
   colors: {
     backgroundStart: "#f6d1d1",
@@ -67,7 +71,7 @@ const config = {
   },
 
   // =========================
-  // ANIMATIONS (SUBTLE)
+  // ANIMATIONS
   // =========================
   animations: {
     floatDuration: "18s",
@@ -82,11 +86,9 @@ const config = {
   music: {
     enabled: true,
     autoplay: true,
-    musicUrl: "PASTE_YOUR_CLOUDINARY_MP3_URL_HERE",
+    musicUrl: "", // ← paste Cloudinary MP3 URL here
     startText: "🎵 Play our song",
     stopText: "🔇 Pause",
     volume: 0.4
   }
 };
-
-export default config;
